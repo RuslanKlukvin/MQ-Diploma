@@ -78,8 +78,8 @@
   
   @media (min-width: 1200px) {
     .header {
-      
-      background-image: url("C:\Users\1\Desktop\MQ Diploma\Image\banner-bg.jpg");
+      background-image: url(Image\banner-bg-tablet.jpg);
+     
   }
   .header-wrapper {
     flex-direction: column;
