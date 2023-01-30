@@ -1,13 +1,13 @@
 @font-face {
     font-family: open-sans-regular;
-    src: url(C:\Users\1\Desktop\MQ Diploma\Font\OpenSans-Regular.woff);
+    src: url(Font\OpenSans-Regular.woff);
     font-weight: 400;
     font-style: normal;
   }
 
   @font-face {
     font-family: open-sans-bold;
-    src: url(C:\Users\1\Desktop\MQ Diploma\Font\OpenSans-Bold.woff2);
+    src: url(Font\OpenSans-Regular.woff2);
     font-weight: 400;
     font-style: normal;
   }
@@ -76,10 +76,9 @@
     text-align: center;
   }
   
-  @media (min-width: 1200px) {
+  @media  (min-width: 1200px)  {
     .header {
-      background-image: url(Image\banner-bg-tablet.jpg);
-     
+      background-image:  url(../Image/banner-bg.jpg);
   }
   .header-wrapper {
     flex-direction: column;
@@ -134,7 +133,7 @@
 
 @media (min-width: 641px) and (max-width: 1200px) {
   .header {
-    background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\banner-bg-tablet.jpg);
+    background-image: url(../Image/banner-bg.jpg);
     padding-top: 43px;
   }
   .header-navigation {
@@ -181,7 +180,7 @@
 
 @media (max-width: 641px) {
   .header {
-    background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\banner-mobile.jpg);
+    background-image: url(../Image/banner-mobile.jpg);
 }
 .header-navigation {
   margin: 0 15px 0 15px;
@@ -311,16 +310,16 @@ font-size: 12pt;
 color: #b59f5b;
 }
 .trend-pic1{  
-background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend1.jpg);
+background-image: url(../Image/trend1.jpg);
 }
 .trend-pic2{  
-  background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend2.jpg);
+  background-image: url(../Image/trend2.jpg);
 }
 .trend-pic3{  
-  background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend3.jpg);
+  background-image: url(../Image/trend3.jpg);
 }
 .trend-pic4{  
-  background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend4.jpg);
+  background-image: url(../Image/trend4.jpg);
 }
 
 @media (min-width: 1200px) {
@@ -1234,15 +1233,15 @@ background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend1.jpg);
       margin-right: 0;
     }
     .settee-pillows {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-desk1.jpg);
+      content: url(../Image/shop-item-desk1.jpg);
       width: 100%;
     }
     .doll-hare {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-desk2.jpg);
+      content: url(../Image/shop-item-desk2.jpg);
       width: 100%;
     }
     .octagon {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-desk3.jpg);
+      content: url(../Image/shop-item-desk3.jpg);
       width: 100%;
     }
     .product__header-wrapper {
@@ -1301,13 +1300,13 @@ background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend1.jpg);
       margin: 8px 57px 0 0px;
     }
     .settee-pillows {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-tablet1.jpg);
+      content: url(../Image/shop-item-tablet1.jpg);
     }
     .doll-hare {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-tablet2.jpg);
+      content: url(../Image/shop-item-tablet2.jpg);
     }
     .octagon {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-tablet3.jpg);
+      content: url(../Image/shop-item-tablet3.jpg);
     }
     .product__pic {
       width: 100%;
@@ -1368,13 +1367,13 @@ background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend1.jpg);
       margin: 18px 40px 40px 35px;
     }
     .settee-pillows {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-mobile1.jpg);
+      content: url(../Image/shop-item-mobile1.jpg);
     }
     .doll-hare {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-mobile2.jpg);
+      content: url(../Image/shop-item-mobile2.jpg);
     }
     .octagon {
-      content: url(C:\Users\1\Desktop\MQ Diploma\Image\shop-item-mobile3.jpg);
+      content: url(../Image/shop-item-mobile3.jpg);
     }
     .product__pic {
       width: 100%;
@@ -1439,16 +1438,16 @@ background-image: url(C:\Users\1\Desktop\MQ Diploma\Image\trend1.jpg);
     width: 20px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 20px;
+    background-size: 20px;"
   }
   .social__item-dribbble {
-    background-image: url(C:\Users\1\Desktop\MQ Diploma\SVG\001-dribbble.svg);
+    background-image: url("../svg/001-dribbble.svg");
 }
 .social__item-pinterest {
-  background-image: url(C:\Users\1\Desktop\MQ Diploma\SVG\002-pinterest.svg);
+  background-image: url("../svg/002-pinterest.svg");
 }
 .social__item-tumblr {
-  background-image: url(C:\Users\1\Desktop\MQ Diploma\SVG\003-tumblr.svg);
+  background-image: url("../svg/003-tumblr.svg");
 }
 .footer__copyright {
   text-align: center;
