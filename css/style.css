@@ -130,7 +130,7 @@ a {
   display: none;
 }
 }
-
+ 
 @media (min-width: 641px) and (max-width: 1200px) {
 .header {
   background-image: url(../Image/banner-bg.jpg);
