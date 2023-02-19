@@ -530,7 +530,32 @@
         </div>
       </footer>
 
-                      
+    <!-- FEEDBACK POPUP -->
+    <div class="feedback-form">
+      <div class="aside-item__title feedback__title">Ваш фидбек</div>
+      <div class="feedback__textblock">Как часто вы заходите на сайт?</div>
+      <select class="feedback__interval">
+        <option>Почти каждый день</option>
+        <option>Почти каждую ночь</option>
+      </select>
+      <div class="feedback__textblock">Вы подписаны на e-mail рассылку?</div>
+      <div class="feedback__email-signup__group">
+        <div class="feedback__email-signup-item">
+          <input type="radio" class="feedback__email-signup__radio" name="email-signup__group" id="feedback__email-signup__yes" checked="">
+          <label class="feedback__email-signup__text" for="feedback__email-signup__yes">Да</label>
+        </div>
+        <div class="feedback__email-signup-item">
+          <input type="radio" class="feedback__email-signup__radio" name="email-signup__group" id="feedback__email-signup__no">
+          <label class="feedback__email-signup__text" for="feedback__email-signup__no">Нет</label>
+        </div>
+      </div>
+      <div class="feedback__textblock">
+        Расскажите, какой контент вы хотели бы увидеть на нашем сайте?
+      </div>
+      <textarea class="feedback__comment" name="feedback" cols="40" rows="5" placeholder="Может, больше рецептов?"></textarea>
+      <button class="feedback-send__button">Отправить</button>
+    </div>
+                        
 
 </body>
 </html>
