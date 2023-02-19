@@ -1,13 +1,13 @@
 @font-face {
   font-family: open-sans-regular;
-  src: url(../Font/OpenSans-Regular.woff);
+  src: url(../font/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: open-sans-bold;
-  src: url(../Font/OpenSans-Regular.woff2);
+  src: url(../font/OpenSans-Regular.woff2);
   font-weight: 400;
   font-style: normal;
 }
@@ -78,7 +78,7 @@ a {
 
 @media  (min-width: 1200px)  {
   .header {
-    background-image:  url(../Image/banner-bg.jpg);
+    background-image:  url(../image/banner-bg.jpg);
 }
 .header-wrapper {
   flex-direction: column;
@@ -133,7 +133,7 @@ a {
 
 @media (min-width: 641px) and (max-width: 1200px) {
 .header {
-  background-image: url(../Image/banner-bg.jpg);
+  background-image: url(../image/banner-bg.jpg);
   padding-top: 43px;
 }
 .header-navigation {
@@ -180,7 +180,7 @@ a {
 
 @media (max-width: 641px) {
 .header {
-  background-image: url(../Image/banner-mobile.jpg);
+  background-image: url(../image/banner-mobile.jpg);
 }
 .header-navigation {
 margin: 0 15px 0 15px;
@@ -313,16 +313,16 @@ font-size: 16px;
 color: #b59f5b;
 }
 .trend-pic1{  
-background-image: url(../Image/trend1.jpg);
+background-image: url(../image/trend1.jpg);
 }
 .trend-pic2{  
-background-image: url(../Image/trend2.jpg);
+background-image: url(../image/trend2.jpg);
 }
 .trend-pic3{  
-background-image: url(../Image/trend3.jpg);
+background-image: url(../image/trend3.jpg);
 }
 .trend-pic4{  
-background-image: url(../Image/trend4.jpg);
+background-image: url(../image/trend4.jpg);
 }
 
 @media (min-width: 1200px) {
@@ -1236,15 +1236,15 @@ height: 1px;
     margin-right: 0;
   }
   .settee-pillows {
-    content: url(../Image/shop-item-desk1.jpg);
+    content: url(../image/shop-item-desk1.jpg);
     width: 100%;
   }
   .doll-hare {
-    content: url(../Image/shop-item-desk2.jpg);
+    content: url(../image/shop-item-desk2.jpg);
     width: 100%;
   }
   .octagon {
-    content: url(../Image/shop-item-desk3.jpg);
+    content: url(../image/shop-item-desk3.jpg);
     width: 100%;
   }
   .product__header-wrapper {
@@ -1303,13 +1303,13 @@ height: 1px;
     margin: 8px 57px 0 0px;
   }
   .settee-pillows {
-    content: url(../Image/shop-item-tablet1.jpg);
+    content: url(../image/shop-item-tablet1.jpg);
   }
   .doll-hare {
-    content: url(../Image/shop-item-tablet2.jpg);
+    content: url(../image/shop-item-tablet2.jpg);
   }
   .octagon {
-    content: url(../Image/shop-item-tablet3.jpg);
+    content: url(../image/shop-item-tablet3.jpg);
   }
   .product__pic {
     width: 100%;
@@ -1370,13 +1370,13 @@ height: 1px;
     margin: 18px 40px 40px 35px;
   }
   .settee-pillows {
-    content: url(../Image/shop-item-mobile1.jpg);
+    content: url(../image/shop-item-mobile1.jpg);
   }
   .doll-hare {
-    content: url(../Image/shop-item-mobile2.jpg);
+    content: url(../image/shop-item-mobile2.jpg);
   }
   .octagon {
-    content: url(../Image/shop-item-mobile3.jpg);
+    content: url(../image/shop-item-mobile3.jpg);
   }
   .product__pic {
     width: 100%;
