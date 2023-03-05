@@ -532,9 +532,9 @@
         </div>
       </footer>
 
-          <!-- FEEDBACK POPUP -->
-          <div class="popup-visually-hidden">      
-    <div class="feedback-form">
+          <!-- FEEDBACK POPUP --> 
+          <div class="popup-visually-hidden" style="display: none;">      
+    <div class="feedback-form" type="submit">
       <div class="aside-item-title feedback-title">Ваш фидбек</div>
       <div class="feedback-textblock">Как часто вы заходите на сайт?</div>
       <select class="feedback-interval">
@@ -544,15 +544,9 @@
       <div class="feedback-textblock">Вы подписаны на e-mail рассылку?</div>
       <div class="feedback-email-signup-group">
         <div class="feedback-email-signup-item">
-          <input
-            type="radio"
-            class="feedback-email-signup-radio"
-            name="email-signup-group"
-            id="feedback-email-signup-yes"
-            checked/>
-          <label
-            class="feedback-email-signup-text"
-            for="feedback-email-signup-yes">Да</label>
+          <input type="radio" class="feedback-email-signup-radio"
+            name="email-signup-group" id="feedback-email-signup-yes" checked/>
+          <label class="feedback-email-signup-text"  for="feedback-email-signup-yes">Да</label>
         </div>
         <div class="feedback-email-signup-item">
           <input type="radio" class="feedback-email-signup-radio"
@@ -565,15 +559,13 @@
       <div class="feedback-textblock">
         Расскажите, какой контент вы хотели бы увидеть на нашем сайте?
       </div>
-      <textarea
-        class="feedback-comment"
+      <textarea class="feedback-comment"
         name="feedback"
         cols="40"
         rows="5"
-        placeholder="Может, больше рецептов?"
-      ></textarea>
-      <button class="feedback-send-button">Отправить</button>
-    </div>   
+        placeholder="Может, больше рецептов?"></textarea>
+      <button class="feedback-send-button" type="submit"> Отправить</button>
+    </button> 
   </div>
                       
 
