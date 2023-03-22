@@ -990,9 +990,9 @@ overflow: hidden;
     margin: 0 35px 0px 35px;
   }
   .post-info {
-    padding: 0px 35px 0px 35px;
+    padding: 0px 35px 10px 35px;
     overflow: hidden;
-    margin-top: -8px;
+    margin-top: -9px;
   }
   .post-tags {
     display: flex;
@@ -1020,7 +1020,7 @@ overflow: hidden;
   .post-intro {
     line-height: 1.5;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 15px;
   }
   .post-img {
@@ -1230,7 +1230,7 @@ overflow: hidden;
   }
 
 
-@media (max-width: 641px) {
+@media (max-width: 640px) {
 .header {
     background-image: url(../image/banner-mobile.jpg);
   }
@@ -1267,11 +1267,14 @@ overflow: hidden;
   display: none;
   }
   .header-title {
-  padding: 30px 30px 212px 30px;
-  margin: 0 auto;
-  font-size: 112px;
-  line-height: 1.35;
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 219px;
+    font-size: 26px;
+    line-height: 1.385;
   }
+  
   .header-title-logo {
   padding: 172px 45px 0 45px;
   margin: auto;
@@ -1526,12 +1529,29 @@ overflow: hidden;
   content: "";
   background-image: url(../svg/form-x.svg);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: right  top;
   position: absolute;
   right: 0;
   z-index: 1;
 }
-div.feedback-title {
+.popup-close {
+  width: 20px;
+  height: 20px;
+  margin-top: -560px;
+  margin-left: 350px;
+  position: absolute;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.popup-header-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.div.feedback-title {
   font-family: open-sans-bold, serif;
   margin-bottom: 25px;
 }

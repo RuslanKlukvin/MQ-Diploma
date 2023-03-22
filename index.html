@@ -532,10 +532,13 @@
         </div>
       </footer>
 
-          <!-- FEEDBACK POPUP --> 
-          <div class="popup-visually-hidden" style="display: none;">      
-    <div class="feedback-form" type="submit">
-      <div class="aside-item-title feedback-title">Ваш фидбек</div>
+          <!-- FEEDBACK POPUP -->        
+    <div class="popup-visually-hidden" style="display: none ;">  
+    <div class="feedback-form" type="button">
+      <button class="popup-close" type="button">Закрыть окно</button>
+        <div class="popup-header-container">
+       <div class="aside-item-title feedback-title">Ваш фидбек</div>
+       <form class="form-popup">
       <div class="feedback-textblock">Как часто вы заходите на сайт?</div>
       <select class="feedback-interval">
         <option>Почти каждый день</option>
@@ -566,8 +569,9 @@
         placeholder="Может, больше рецептов?"></textarea>
       <button class="feedback-send-button" type="submit"> Отправить</button>
     </button> 
+  </form>
   </div>
-                      
+</div>                     
 
 </body>
 </html>
