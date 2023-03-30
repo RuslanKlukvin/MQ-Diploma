@@ -1082,7 +1082,6 @@ overflow: hidden;
     margin-left: 5px;
     font-size: 14px;
   }
-  
   .latest-posts {
     margin-top: -18px;
   }
@@ -1226,6 +1225,18 @@ overflow: hidden;
   .footer-copyright {
     padding-top: 40px;
     margin-left: 10px;
+  }
+  .feedback-form::before {
+    width: 26px;
+    height: 26px;
+    top: -34px;
+  }
+  div.feedback-title {
+    font-size: 17px;
+    margin-top: 18px;
+  }
+  .feedback-send-button {
+    margin-bottom: 25px;
   }
   }
 
@@ -1663,21 +1674,6 @@ label.checked {
   }
 }
 
-@media (min-width: 641px) and (max-width: 1200px) {
-  .feedback-form::before {
-    width: 26px;
-    height: 26px;
-    top: -34px;
-  }
-  div.feedback-title {
-    font-size: 17px;
-    margin-top: 18px;
-  }
-  .feedback-send-button {
-    margin-bottom: 25px;
-  }
-}
-
 @media (max-width: 641px) {
   .feedback-form {
     width: 282px;
@@ -1696,4 +1692,3 @@ label.checked {
     background-position: right 15px center;
   }
 }
-
