@@ -929,6 +929,28 @@ overflow: hidden;
   font-size: 12px;
   margin-left: 10px;
 }
+.feedback-form::before {
+  width: 18px;
+  height: 18px;
+  top: -27px;
+}
+div.feedback-title {
+  font-size: 13px;
+  margin-top: 15px;
+}
+.feedback-email-signup-item label {
+  padding: 0 20px 0 20px;
+  margin-right: 0px;
+  height: 20px;
+  background-size: 15px 15px;
+  background-position: 0 2px;
+}
+.feedback-email-signup-group {
+  margin: 5px 0 25px 0;
+}
+.feedback-send-button {
+  margin-bottom: 25px;
+}
 }
 
 @media (min-width: 641px) and (max-width: 1200px) {
@@ -1649,30 +1671,6 @@ label.checked {
   font-size: 13px;
 }
 
-@media (min-width: 1200px) {
-  .feedback-form::before {
-    width: 18px;
-    height: 18px;
-    top: -27px;
-  }
-  div.feedback-title {
-    font-size: 13px;
-    margin-top: 15px;
-  }
-  .feedback-email-signup-item label {
-    padding: 0 20px 0 20px;
-    margin-right: 0px;
-    height: 20px;
-    background-size: 15px 15px;
-    background-position: 0 2px;
-  }
-  .feedback-email-signup-group {
-    margin: 5px 0 25px 0;
-  }
-  .feedback-send-button {
-    margin-bottom: 25px;
-  }
-}
 
 @media (max-width: 641px) {
   .feedback-form {
